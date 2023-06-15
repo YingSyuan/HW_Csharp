@@ -16,21 +16,15 @@ namespace HW_Form
         {
             InitializeComponent();
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void btnEnter_Click(object sender, EventArgs e)
         {
             Random Answernumber = new Random();
             int num = Answernumber.Next(1, 100);
             int Num = int.Parse(txtInput.Text);
-            //if (txtInput.Text=="0")
-            //{
-            //    MessageBox.Show("請輸入數值");
-            //}
             if (Num < num)
             {
                 label2.Text = "Too Small! Between"+ Num +"to" +"100";
@@ -44,6 +38,5 @@ namespace HW_Form
                 label2.Text = "Successfully";
             }
         }
-
     }
 }
