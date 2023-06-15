@@ -16,18 +16,15 @@ namespace HW_Form
         {
             InitializeComponent();
         }
-
         private void alarm_Tick(object sender, EventArgs e)
         {
             DateTime alarm = DateTime.Now;
             label1.Text = alarm.TimeOfDay.ToString();
             label1.Text = alarm.Hour +":"+ alarm.Minute+":"+alarm.Second;
         }
-
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             MessageBox.Show("Successfully set Alarm Time !");
         }
-
     }
 }
