@@ -36,16 +36,11 @@ namespace HW_Form
             gender = txtName3.Text;
             sign = txtName4.Text;
 
-            //System.Windows.Forms.MessageBox.Show("Hello," + name);
             MessageBox.Show("Hello,我是" + name +"," +Environment.NewLine +
                 "英文名字是" + English_name + "," + Environment.NewLine + 
                 "性別是" + gender + "," + Environment.NewLine +
                 "星座是"+ sign + "," + Environment.NewLine +
                 "Nice to meet you!");
-         /*   MessageBox.Show("Hello,我是" + name);
-            MessageBox.Show(",英文名字是" + English_name);
-            MessageBox.Show(",性別是" + gender);
-            MessageBox.Show(",星座是" +signs);*/
         }
 
         private void btnHi_Click(object sender, EventArgs e)
@@ -61,13 +56,6 @@ namespace HW_Form
                 "性別是" + gender + "," + Environment.NewLine +
                 "星座是" + sign + "," + Environment.NewLine +
                 "Nice to meet you!");
-
-            //System.Windows.Forms.MessageBox.Show("Hello," + name);
-            /*MessageBox.Show("Hi,我是" + name,
-                            ",英文名字是" + English_name,
-                            ",性別是"+gender,
-                            ",星座是"+signs);
-            MessageBox.Show("");*/
         }
 
         private void txtName2_TextChanged(object sender, EventArgs e)
