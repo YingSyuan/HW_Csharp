@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace HW_Form
 {
     internal class MyClass
-
     {
-
     }
     public class Bar
     {
@@ -22,7 +20,6 @@ namespace HW_Form
             Dollar = dollar;
             Total = total;
         }
-
     }
     public struct Grade
     {
