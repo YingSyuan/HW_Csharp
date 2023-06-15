@@ -24,9 +24,7 @@ namespace HW_Form
             int Chinese = int.Parse(txtCh.Text);
             int English = int.Parse(txtEn.Text);
             int Math = int.Parse(txtMa.Text);
-
-
-            //int Grade[] = { Chinese, English, Math };
+       
             Grade grade;
             grade.Name = txtName.Text;
             grade.Chinese = int.Parse(txtCh.Text);
@@ -36,9 +34,7 @@ namespace HW_Form
                            "國文:" + grade.Chinese + "\n" +
                            "英文:" + grade.English + "\n" +
                            "數學:" + grade.Math;
-
         }
-
         private void btnDisplay_Click(object sender, EventArgs e)
         {
             Grade grade;
@@ -51,7 +47,6 @@ namespace HW_Form
             labEnglishh.Text = "英文:" + grade.English + "分";
             labMathh.Text = "數學:" + grade.Math + "分";
         }
-
         private void btnHAndL_Click(object sender, EventArgs e)
         {
             Grade compare;
@@ -95,10 +90,6 @@ namespace HW_Form
             {
                 labLow.Text = "最低科目成績為 : 數學" + min + "分";
             }
-
-
-
         }
-
     }
 }
