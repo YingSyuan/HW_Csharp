@@ -22,7 +22,6 @@ namespace HW_Form
             Form9_1 frm9_1 = new Form9_1();
             frm9_1.Show();
         }
-
         private void btnAnswer_Click(object sender, EventArgs e)
         {
             Random Answernumber = new Random();
